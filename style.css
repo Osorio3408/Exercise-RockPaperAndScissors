@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.btn_game{
+  margin-top: 5px;
+  width: 20vw;
+  height: 20vh;
+  padding: 130px;
+  border-radius: 14%;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 4rem ;
+  color: transparent ;
+  -webkit-text-stroke: rgb(0, 0, 0) 3px;
+}
+p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.counter{
+text-align: center;
+font-size: 3rem;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.result{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.result_img{
+  width: 50vw;
+  padding-top: 1rem;
+}
+#result_player{
+  width: 20vw;
+  height: 20vw;
+}
+#result_cpu{
+  width: 20vw;
+  height: 20vw;
+}
+
+
+#rock{
+  background: url("./image/rock.png") no-repeat center ;
+}
+#paper{
+  background: url("./image/paper.png") no-repeat center ;
+}
+#scissors{
+  background: url("./image/scissors.png") no-repeat center ;
+}
+
+#rock:hover{
+  background:rgba(0, 0, 0 ) url("./image/rock.png") no-repeat center ;
+}
+#paper:hover{
+  background:rgba(0, 0, 0 ) url("./image/paper.png") no-repeat center ;
+}
+#scissors:hover{
+  background: rgb(0, 0, 0) url("./image/scissors.png") no-repeat center ;
+}

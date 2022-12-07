@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/rock-paper-scissors.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  
+  <link rel="stylesheet" href="sweetalert2.min.css">
+  <title>Rock Paper or Scissors</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Rock Paper or Scissors</h1>
+      <hr>
+        <div class="game">
+          <div class="btn">
+            <button id="rock" class="btn_game" value="1"></button>
+            <button id="paper" class="btn_game" value="2"></button>
+            <button id="scissors" class="btn_game" value="3"></button>
+          </div>
+          
+          <div class="counter">
+            <p id="paragraph_player"></p>|
+            <p id="paragraph_cpu"></p>
+          </div>
+
+          <div class="result">
+            <div class="result_img">
+              <img id="result_player" src="./image/question.png" alt="">
+              <img id="result_cpu" src="./image/question.png" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./sweetAlert.js"></script>
+</body>
+</html>
